@@ -70,7 +70,9 @@ body {
 }
 
 .form {
-    position: absolute;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .input {
@@ -81,8 +83,9 @@ body {
     font-size: 70px;
     text-align: end;
     color: white;
-    top: -268px;
     position: relative;
+    position: relative;
+    top: 270px;
 }
 
 @media screen {}
