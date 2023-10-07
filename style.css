@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #3b4664;
+}
+
+.countainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.countainer2 {
+    width: 499px;
+    height: 387px;
+    background-color: #252d44;
+    border-radius: 12px;
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+.button {
+    width: 100px;
+    background-color: #eae3db;
+    border-radius: 12px;
+    font-size: 20px;
+    height: 60px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 215px;
+    height: 60px;
+    border-radius: 12px;
+    margin: 3px;
+    font-size: 23px;
+    color: white;
+    background-color: #647299;
+    cursor: pointer;
+}
+
+.button3 {
+    width: 215px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #d13f30;
+    margin: 3px;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+}
+
+.button4 {
+    width: 100px;
+    background-color: #647299;
+    border-radius: 12px;
+    font-size: 20px;
+    height: 60px;
+    margin: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.form {
+    position: absolute;
+}
+
+.input {
+    width: 500px;
+    height: 143px;
+    background-color: #181f32;
+    border-radius: 12px;
+    font-size: 70px;
+    text-align: end;
+    color: white;
+    top: -268px;
+    position: relative;
+}
+
+@media screen {}

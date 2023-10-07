@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="countainer">
+
+        <form class="form">
+            <input id="displayScreen" type="text" id="input" placeholder="000" class="input" readonly>
+        </form>
+
+
+        <div class="countainer2">
+            <div class="container2inside">
+                <button class="button" onclick="display('7')">7</button>
+                <button class="button" onclick="display('8')">8</button>
+                <button class="button" onclick="display('9')">9</button>
+                <button class="button4 " onclick="delFunction('')">DEL</button>
+            </div>
+            <div class="container2inside ">
+                <button class="button " onclick="display('4')">4</button>
+                <button class="button " onclick="display('5')">5</button>
+                <button class="button " onclick="display('6')">6</button>
+                <button class="button " onclick="display('+')">+</button>
+            </div>
+            <div class="container2inside ">
+                <button class="button " onclick="display('1')">1</button>
+                <button class="button " onclick="display('2')">2</button>
+                <button class="button " onclick="display('3')">3</button>
+                <button class="button " onclick="display('-')">-</button>
+            </div>
+            <div class="container2inside ">
+                <button class="button " onclick="display('.')">.</button>
+                <button class="button " onclick="display('0')">0</button>
+                <button class="button " onclick="display('/')">/</button>
+                <button class="button " onclick="display('x')">x</button>
+            </div>
+            <div class="container2inside ">
+                <button class="button2 " onclick="resetFunction()">RESET</button>
+                <button class="button3 " onclick="equalsFunction()">=</button>
+            </div>
+
+        </div>
+    </div>
+    <input type="text" id="outputText" placeholder="Output Text">
+    <button id="inputButton">Click Me</button>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.1/math.js"></script>
+
+
+</body>
+
+
+</html>
